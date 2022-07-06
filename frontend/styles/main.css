@@ -1,0 +1,151 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #D57171 !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #D57171 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top:78px ;
+}
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.hero-section p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.hero-section .btn-cta {
+    margin-top: 40px;
+}
+
+.hero-section .btn-cta img {
+    width: 46px;   
+}
+
+.hero-section .btn {
+    border-radius: 0px 30px 30px 0px;
+    margin-left: 11px;
+}
+/*Akhir Hero Section  */
+
+.section-title{
+    border-bottom: 3px solid #F488BC;
+    width:8%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+
+}
+
+/* Categories */
+.tag{
+    z-index: 3;
+    background-color: #F488BC;
+    padding: .25rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 0px 20px;
+    min-height: 30px;
+}
+
+.tag span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+    .categories-thumbnail{
+        width: 100%;
+        height: 462px;
+        border-radius: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .categories-thumbnail-small{
+        width: 100%;
+        height: 224px;
+        border-radius: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .categories-thumbnail:hover .categories-img{
+    transform: scale(1.1)
+}
+
+.categories-thumbnail-small:hover .categories-img{
+    transform: scale(1.1)
+}
+
+.categories-img {
+    width: 100%;
+    height: 100%;
+
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    transition: all 0.3s ease;
+}
+/* Tutup Categories */
+
+
+
+/* Testimonial */
+.btn-testimonial{
+    background: #F488BC;
+    border-radius: 10px;
+}
+/* Testimonial */
+
+/* Page Content */
+.col-md-2{
+    width: 500px;
+}
+.btn-continue-booking{
+    background: #C75089;
+}
+.btn-cancel-booking{
+    background: #C75089;
+}
+
+/* Tutup Page Content */
+
+/* Footer */
+
+.footer{
+    background: #F488BC;
+}
+.footer2{
+    background: #C75089;
+
+}
+/* Tutup Footer */
